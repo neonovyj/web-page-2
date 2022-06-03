@@ -1,0 +1,82 @@
+@import "header.scss";
+@import "home.scss";
+@import "menu.scss";
+@import "about.scss";
+@import "contacts.scss";
+@import "footer";
+
+$color_dark: #1E1F24;
+$color_light: #D7D7D7;
+$font-stack: PT Sans, sans-serif;
+
+
+body {
+  font: 100% $font-stack;
+  background-color: $color_dark;
+  color: $color_light;
+  min-width: 1200px;
+}
+
+.container {
+  width: 1200px;
+  padding: 0px 15px;
+  margin: 0px auto;
+
+  .ntitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 64px;
+  }
+}
+
+h3 {
+  color: #1E1F24;
+  font: {
+    family: 'Playfair Display', serif;
+    style: normal;
+    weight: 500;
+    size: 33.18px;
+  }
+  margin: {
+    top: 112px;
+    bottom: 16px;
+  }
+
+}
+
+hr {
+  height: 0.5px;
+  width: 120px;
+  background-color: #1E1F24;
+}
+
+.butt {
+  button {
+    width: 215px;
+    height: 62px;
+    font-size: 19.20px;
+    background-color: #1E1F24;
+    border: 0;
+    display: block;
+    border: 2px solid #2ecc71;
+    outline: none;
+    color: #D7D7D7;
+    border-radius: 24px;
+    transitin: 0.25s;
+    cursor: pointer;
+    margin-top: 32px;
+
+    &:hover {
+      background: #2ecc71;
+    }
+  }
+}
+
+.tel {
+  display: flex;
+
+  .tel2 {
+    margin-left: 16px;
+  }
+}

@@ -1,0 +1,47 @@
+header {
+  padding: {
+    top: 24px;
+    bottom: 24px;
+  }
+
+  .nav_header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav {
+    padding-left: 64px;
+    display: flex;
+    align-items: center;
+
+    li {
+      margin-right: 56px;
+
+      &:last-child {
+        margin-right: 0px;
+      }
+
+      a {
+        &:after {
+          display: block;
+          content: "";
+          height: 1px;
+          width: 0%;
+          background-color: #D7D7D7;
+          transition: width 0.3s ease-in-out;
+          opacity: 30%;
+        }
+
+        &:hover, &:focus {
+          &:after {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .tel {
+    margin-right: 64px;
+  }
+}

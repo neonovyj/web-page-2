@@ -1,0 +1,51 @@
+.contacts {
+  background-color: #D7D7D7;
+  min-height: 832px;
+  color: #1E1F24;
+
+  .ntitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 64px;
+  }
+
+  .contacts-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: {
+      left: 104px;
+      right: 104px;
+    }
+
+    .butt {
+      button {
+        margin: {
+          left: 32px;
+          top: 30px;
+        }
+      }
+    }
+  }
+
+  p {
+    margin-bottom: 16px;
+  }
+
+  .time {
+    display: flex;
+
+    .one-time {
+      padding-right: 54px;
+    }
+  }
+
+  .map {
+    display: flex;
+    justify-content: center;
+    padding: {
+      top: 64px;
+    }
+  }
+}

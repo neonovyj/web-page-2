@@ -1,0 +1,40 @@
+.menu {
+  min-height: 832px;
+  background-color: #D7D7D7;
+
+  .price {
+    color: #1E1F24;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+
+    .one-price {
+      display: flex;
+      flex-direction: column;
+
+      .line {
+        .price-list {
+          min-width: 100%;
+          background-color: #1E1F24;
+          opacity: 70%;
+          border: none;
+        }
+      }
+
+      .cost {
+        padding: {
+          top: 12px;
+          bottom: 12px;
+        }
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .name {
+          opacity: 80%;
+        }
+      }
+    }
+  }
+}
